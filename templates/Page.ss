@@ -44,7 +44,7 @@
     </header>
     
     <div id="main">
-
+		$Form
     </div>
     
     <footer>
