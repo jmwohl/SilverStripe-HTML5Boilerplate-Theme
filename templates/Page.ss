@@ -7,13 +7,14 @@
 <!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
+  <% base_tag %>
   <meta charset="utf-8">
 
   <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
        Remove this if you use the .htaccess -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>$SiteConfig.Title &gt; $Title</title>
+  <title>$Title &gt; $SiteConfig.Title</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -40,13 +41,10 @@
 
   <div id="container">
     <header>
-
+		<h1>$Title</h1>
     </header>
-    
-    <div id="main">
 		$Form
-    </div>
-    
+		$Layout
     <footer>
 
     </footer>
